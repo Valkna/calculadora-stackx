@@ -1,0 +1,106 @@
+* {
+    font-family: 'Arial';
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fullPage {
+    height: 100vh;
+}
+
+
+.calculatorHistoryWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.calculatorBody {
+    margin-right: 0px; /* Espaço entre a calculadora e o histórico */
+    background-size: cover;
+    width: 289px;
+    height: 430px;  
+}
+
+.historyPage {
+    padding: 94px 20px;
+    width: 400px;
+    height: 430px;
+    text-align: center;
+    color: #5b4d42;
+}
+
+.historyPage div {
+
+    margin-bottom: 8.8px;
+    cursor: pointer;
+}
+
+.display {
+    text-align: center;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size: 210px;
+    height: 100px;
+    background-size: 233px;
+    
+}
+
+#numerosDisplay {
+    width: 207px;
+    font-size: 25px;
+    color:#526047;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+
+}
+
+.keyPad td {
+    background: transparent;
+    border: 0;
+    padding: 3px 4px;
+}
+
+.keyPad {
+    border: 0px;
+}
+
+
+.but1, .but2, .but3, .but4 {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    color: #a76651;
+    background-color: transparent;
+}
+
+.but5 {
+    width: 50px;
+    height: 106px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #a76651;
+}
+
+.but6 {
+    width: 106px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #a76651;
+}
+
+button:hover {
+    filter: saturate(300%);
+}
+
